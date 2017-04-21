@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent">
+
+    <item
+        android:id="@+id/action_share_custom"
+        android:orderInCategory="100"
+        android:title="@string/action_share"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_logout_custom"
+        android:orderInCategory="100"
+        android:title="@string/action_logout"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_call_custom"
+        android:orderInCategory="1"
+        android:title="@string/action_call"
+        android:icon="@mipmap/ic_phone"
+        app:showAsAction="always"
+        android:background="@android:color/transparent"
+        />
+</menu>

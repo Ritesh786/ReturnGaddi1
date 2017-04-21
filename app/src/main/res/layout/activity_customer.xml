@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_customer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rjtest.returngaddi.CustomerActivity"
+    android:orientation="vertical"
+   >
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:local="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolcustom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:minHeight="?attr/actionBarSize"
+        local:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        local:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Customer Registration"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:textColor="#008080"
+        android:layout_marginBottom="5dp"/>
+
+    <com.emmasuzuki.easyform.EasyForm
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <com.emmasuzuki.easyform.EasyTextInputLayout
+            android:id="@+id/customer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorMessage="This field is required"
+            app:errorType="empty"
+            android:hint="Customer Name"
+            app:minValue="-100"
+            app:maxValue="100"
+            app:minChars="5"
+            app:maxChars="20"
+            app:textSize="20dp"
+            android:layout_margin="10dp"/>
+
+        <com.emmasuzuki.easyform.EasyTextInputLayout
+            android:id="@+id/First_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorMessage="This field is required"
+            app:errorType="empty"
+            android:hint="First Name"
+            android:layout_below="@+id/customer"
+
+            app:minValue="-100"
+            app:maxValue="100"
+            app:minChars="4"
+            app:maxChars="20"
+            app:textSize="20dp"
+            android:layout_margin="10dp"/>
+
+        <com.emmasuzuki.easyform.EasyTextInputLayout
+            android:id="@+id/Last_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorMessage="This field is required"
+            app:errorType="empty"
+            android:hint="Last Name"
+            android:layout_below="@+id/First_c"
+
+            app:minValue="-100"
+            app:maxValue="100"
+            app:minChars="3"
+            app:maxChars="20"
+            app:textSize="20dp"
+            android:layout_margin="10dp"/>
+
+        <com.emmasuzuki.easyform.EasyTextInputLayout
+            android:id="@+id/digit_customer_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:errorMessage="Please Input Valid Email-Id"
+            app:errorType="empty"
+            app:regexPattern="[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+"
+            android:hint="Email-Id"
+            android:layout_below="@+id/Last_c"
+            app:minValue="-100"
+            app:maxValue="100"
+            app:minChars="3"
+            app:maxChars="20"
+            app:textSize="20dp"
+            android:layout_margin="10dp"/>
+
+        <com.emmasuzuki.easyform.EasyTextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_below="@+id/digit_customer_input"
+            android:id="@+id/phone_number_c"
+            app:errorType="empty"
+            android:hint="Phone Number"
+
+            app:maxChars="10"
+            app:textSize="20dp"
+            app:errorMessage="Please Input Valid Phone number"
+            android:layout_margin="10dp" />
+
+        <com.emmasuzuki.easyform.EasyTextInputLayout
+            android:id="@+id/Address_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorMessage="This field is required"
+            app:errorType="empty"
+            android:hint="Address 1"
+            android:layout_below="@+id/phone_number_c"
+
+            app:minValue="-100"
+            app:maxValue="100"
+            app:minChars="3"
+            app:maxChars="20"
+            app:textSize="20dp"
+            android:layout_margin="10dp"/>
+
+        <com.emmasuzuki.easyform.EasyTextInputLayout
+            android:id="@+id/Address_second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorMessage="This field is required"
+            app:errorType="empty"
+            android:hint="Address 2"
+            android:layout_below="@+id/Address_c"
+
+            app:minValue="-100"
+            app:maxValue="100"
+            app:minChars="3"
+            app:maxChars="20"
+            app:textSize="20dp"
+            android:layout_margin="10dp"/>
+
+        <com.emmasuzuki.easyform.EasyTextInputLayout
+            android:id="@+id/city_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorMessage="This field is required"
+            app:errorType="empty"
+            android:hint="City"
+            android:layout_below="@+id/Address_second"
+
+            app:minValue="-100"
+            app:maxValue="100"
+            app:minChars="3"
+            app:maxChars="20"
+            app:textSize="20dp"
+            android:layout_margin="10dp"/>
+
+        <com.emmasuzuki.easyform.EasyTextInputLayout
+            android:id="@+id/state_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorMessage="This field is required"
+            app:errorType="empty"
+            android:hint="State"
+            android:layout_below="@+id/city_c"
+
+            app:minValue="-100"
+            app:maxValue="100"
+            app:minChars="3"
+            app:maxChars="20"
+            app:textSize="20dp"
+            android:layout_margin="10dp"/>
+
+        <com.emmasuzuki.easyform.EasyTextInputLayout
+            android:id="@+id/pincode_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorMessage="This field is required"
+            app:errorType="empty"
+            android:hint="pincode"
+            android:layout_below="@+id/state_c"
+
+            app:minValue="-100"
+            app:maxValue="100"
+            app:minChars="3"
+            app:maxChars="20"
+            app:textSize="20dp"
+            android:layout_margin="10dp"/>
+
+        <com.emmasuzuki.easyform.EasyTextInputLayout
+            android:id="@+id/Pan_no_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:errorMessage="Please Input Valid Pan Number"
+            app:errorType="empty"
+            app:regexPattern="[A-Z]{5}[0-9]{4}[A-Z]{1}"
+            android:hint="Pan Number"
+            android:layout_below="@+id/pincode_c"
+            app:maxChars="10"
+            app:textSize="20dp"
+            android:layout_margin="10dp"/>
+
+        <com.emmasuzuki.easyform.EasyTextInputLayout
+            android:id="@+id/password_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorMessage="This field is required"
+            app:errorType="empty"
+            android:hint="Password"
+            android:layout_below="@+id/Pan_no_c"
+            app:maxChars="10"
+            app:textSize="20dp"
+            android:inputType="textPassword"
+            android:layout_margin="10dp" />
+
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/check_c"
+            android:layout_below="@+id/password_c"
+            android:text="I accept Terms of Service and Privacy Policy."
+            android:layout_margin="10dp"
+          />
+
+
+        <Button
+            android:id="@+id/submit_button_customer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/check_c"
+            android:background="@color/colorGreen"
+            android:text="SUBMIT"
+            android:textColor="@android:color/white"
+
+            android:layout_margin="10dp"/>
+
+    </com.emmasuzuki.easyform.EasyForm>
+
+</LinearLayout>
+</ScrollView>

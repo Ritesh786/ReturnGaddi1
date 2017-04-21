@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/side_nav_bar"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+<ImageView android:layout_height="90dp"
+    android:layout_width="100dp"
+    android:src="@drawable/logo"
+    android:id="@+id/imageView"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="20dp"
+   />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Customer"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/customer_name"
+        android:layout_below="@+id/imageView"
+       android:layout_marginLeft="15dp"
+       />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="customer@example.com"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/customer_mail"
+        android:layout_below="@+id/customer_name"/>
+
+
+
+
+</RelativeLayout>

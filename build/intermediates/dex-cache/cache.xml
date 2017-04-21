@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_b25776bd7b35d1d372cbf81cd55668d67d830a5c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.2.1_99c829f1d11e793836673b7e3f12e62c9e0cf0a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\exploded-aar\com.emmasuzuki\easyform\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="13736cc9df583a8f337b6aa9e074cdea514db03f">
+        <dex dex="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.emmasuzuki-easyform-1.0.1_20440bfa7bccbfde7d75fb2ea7a3712d09fbe959\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.8.0_b95647b5b7259bc563fbff981612531bccb2e07f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Fujitsu\AppData\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_2217c94aa3bca141d9aae571a0141a88216d4678\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.2.1_602fa8e004589b1caf2d8cd8fd12173124ca99e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
+        <dex dex="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-9.8.0_40a7cbf01685d571952cd5da92278e5707577029\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.8.0_afb4b969cabd7fb8ea4ab3b19d954dc9dd4aca8a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.volley-volley-1.0.0_77429e4e57f471f733ec41ef86ef7c783fc906df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.1_241a94dd2879fc2c507f9d7b922574a1acc953cc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.1_4d33be5e6ca53042ec307d63af87928a0d77e87d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.8.0_c51ec0048a0f8b79c144ba872d8e660b976022ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_82c4e6323a0b2e3ccb4173b3ba71893922f0733f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.1_6ea364a3787a6900a4f58a1aca5deece7aed6710\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_6ead2786b4eb7a60023a0407bd1c3abec49e96d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\exploded-aar\com.wrapp.floatlabelededittext\library\0.0.6\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0db8e1dc3097c0db8425b339e5e720ef6e918400">
+        <dex dex="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.wrapp.floatlabelededittext-library-0.0.6_bd68b27efc654a64f2baef09c9e2cec1ec89e951\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.8.0_7e14bd51d033c3476250f33e2c7d90de68762b90\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="bbcea97ddebc51f17113fe8d41d9faf8a9012bbc">
+        <dex dex="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b05784c76ebcc587280ad304d192874f9713e51a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_2675e5a14d5a4e1f1f3e68248d83b45ae1b607e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_498b14f2b3734cd3b16d7c6f2f1cd4553d9b9ea6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Fujitsu\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_ab9695f83b7865db6856ef7fda5af695b4d491a7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fe94627616b09b3af0929f1be17c4d7513a60041">
+        <dex dex="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d5b0b6635f8c92f9c630c407ab2da4dba679084d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\Fujitsu\AndroidStudioProjects\ReturnGaddi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_fd27d7623e02c594d52915483a0e1fdf0ba060a4\classes.dex" />
+    </item>
+
+</items>

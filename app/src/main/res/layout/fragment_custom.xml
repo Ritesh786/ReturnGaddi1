@@ -1,0 +1,70 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.rjtest.returngaddi.Customer_dashBoard.Main2Activity"
+    tools:showIn="@layout/app_bar_main2"
+    android:orientation="vertical"
+    android:background="@drawable/back_road">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search Gaddi"
+            android:padding="30dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="#00c0ef"
+            android:textColor="#ffffff"
+            android:id="@+id/button_custm_dash_search" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Booking Status"
+            android:padding="30dp"
+            android:layout_marginTop="40dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="#00a65a"
+            android:textColor="#ffffff"
+            android:id="@+id/button_custm_dash_status"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post Load"
+            android:padding="30dp"
+            android:layout_marginTop="40dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="#605ca8"
+            android:textColor="#ffffff"
+            android:id="@+id/button_custm_dash_postload"  />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Post"
+            android:padding="30dp"
+            android:layout_marginTop="40dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="#ff851b"
+            android:textColor="#ffffff"
+            android:id="@+id/button_custm_dash_mypost"  />
+    </LinearLayout>
+
+</LinearLayout>

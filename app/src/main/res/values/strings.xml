@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">ReturnGaddi</string>
+    <string name="title_activity_dash_board">DashBoardActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Blog</string>
+    <string name="title_activity_return_gaddi">ReturnGaddi</string>
+    <string name="action_share">Share</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_main2">ReturnGaddi</string>
+    <string name="action_call">call</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_createpost">createpost</string>
+
+    <string-array name="CityNames">
+        <item>Select City</item>
+        <item>Agra</item>
+        <item>Ahmedabad</item>
+        <item>Allahabad</item>
+        <item>Amritsar</item>
+        <item>Asansol</item>
+        <item>Bengaluru</item>
+        <item>Bhagalpur</item>
+        <item>Bhopal</item>
+        <item>Indore</item>
+        <item>Bhimavaram</item>
+        <item>Bhubaneswar</item>
+        <item>Chandigarh</item>
+        <item>Chennai</item>
+        <item>Coimbatore</item>
+        <item>Coorg</item>
+        <item>Darjeeling</item>
+        <item>Dhanbad</item>
+        <item>Dhanbad</item>
+        <item>Shillong</item>
+        <item>Dibrugarh</item>
+        <item>Durgapur</item>
+        <item>Gandhinagar</item>
+        <item>Guntur</item>
+
+    </string-array>
+
+
+</resources>

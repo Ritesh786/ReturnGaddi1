@@ -1,0 +1,53 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.rjtest.returngaddi.Transporter_dashboard.SearchLoadFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/dep_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Departure date"
+        android:focusable="false"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="80dp"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/pickup_lcn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pick up location"
+        android:layout_below="@+id/dep_date"
+        android:textSize="20dp"
+        android:inputType="textNoSuggestions"
+        android:layout_margin="10dp"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/dropof_lcn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Drop off location"
+        android:layout_below="@+id/pickup_lcn"
+        android:textSize="20dp"
+        android:inputType="textNoSuggestions"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/Search_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vehicle"
+        android:background="@color/colorGreen"
+        android:text="Search"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_c"
+            android:icon="@mipmap/ic_home_image"
+            android:title="Home" />
+        <item
+            android:id="@+id/notification_c"
+            android:icon="@mipmap/ic_notification"
+            android:title="Notification" />
+        <item
+            android:id="@+id/about_c"
+            android:icon="@mipmap/ic_about"
+            android:title="About Us" />
+        <item
+            android:id="@+id/policy_c"
+            android:icon="@mipmap/ic_policy"
+            android:title="Policy Info" />
+        <item
+            android:id="@+id/contact_c"
+            android:icon="@mipmap/ic_contact"
+            android:title="Contact Us" />
+    </group>
+
+</menu>

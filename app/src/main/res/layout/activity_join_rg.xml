@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_join_rg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rjtest.returngaddi.joinRgActivity"
+    android:orientation="vertical"
+    android:background="#B0E0E6"
+
+    >
+
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:local="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/tooljoin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:minHeight="?attr/actionBarSize"
+        local:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        local:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        />
+
+      <Button
+      android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="TRANSPORTER"
+       android:background="@drawable/customer_butn"
+       android:textSize="40dp"
+        android:textColor="#FFFF"
+          android:layout_marginTop="170dp"
+         android:layout_gravity="center"
+          android:id="@+id/btn_transport"
+          />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CUSTOMER"
+        android:background="@drawable/custom_buttons"
+        android:textSize="40dp"
+        android:textColor="#FFFF"
+       android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/btn_customer"/>
+
+
+</LinearLayout>

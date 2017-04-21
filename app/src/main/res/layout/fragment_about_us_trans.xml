@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.rjtest.returngaddi.Fragments_custom.AboutUsFragment"
+        android:padding="20dp"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OUR VISION"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The vision of Return Gaddi is to raise the standard of transportation. In this era, the growth rate of online business is increasing day by day. Keeping in mind this fact, We at ReturnGaddi.com committed to provide best in class services in the field of transportation. We take responsibility for establishing a bond between consignor and transporter by basic postings of loads and gaddi (trucks), Exciting offers for economic dealing, Easy loading of gaddi (trucks), freight moving in a quick fashion and finally completion of deal within time."
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OUR MISSION"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The idea behind ReturnGaddi.com is to resolve the panic of transporter for the return trip of their vehicles after completion the consignment. Here Transporters could be benefitted by various options of posted consignments. We offer you a friendly and very handy platform for deal fixation between both transporter and consignor. In result the resource utilization takes place with peace of mind."
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textColor="#000000"/>
+
+
+    </LinearLayout>
+</ScrollView>

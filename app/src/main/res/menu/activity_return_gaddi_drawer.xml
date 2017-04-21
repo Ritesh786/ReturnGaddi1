@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@mipmap/ic_home_pic"
+            android:title="Home" />
+        <item
+            android:id="@+id/notification"
+            android:icon="@mipmap/ic_notification"
+            android:title="Notification" />
+        <item
+            android:id="@+id/about"
+            android:icon="@mipmap/ic_about"
+            android:title="About Us" />
+        <item
+            android:id="@+id/policy"
+            android:icon="@mipmap/ic_policy"
+            android:title="Policy Info" />
+        <item
+            android:id="@+id/contact"
+            android:icon="@mipmap/ic_contact"
+            android:title="Contact Us" />
+    </group>
+
+    <item android:title="Explore Vehicle">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_register_vehicle"
+                android:icon="@mipmap/ic_register_vehicle"
+                android:title="Register Vehicle" />
+            <item
+                android:id="@+id/my_vehicle"
+                android:icon="@mipmap/ic_myvehicle"
+                android:title="My Vehicle" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
